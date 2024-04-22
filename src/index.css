@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Raleway]
+    }
+
+    li {
+        @apply px-3
+        cursor-pointer
+    }
+
+    button {
+        @apply mx-4
+    }
+
+    input {
+        @apply block w-full mt-2 p-1.5 outline-green-600
+    }
+
+    select {
+        @apply block w-full p-1.5 mt-2
+    }
+
+    .card {
+        @apply w-full h-full rounded-lg mb-5 py-10 md:mr-5 
+    }
+}
